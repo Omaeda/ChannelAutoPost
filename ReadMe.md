@@ -1,12 +1,12 @@
 # Channel Auto-Post Bot
 
-This bot can send all new messages from one channel, directly to another channel (or group, just in case), without the forwarded tag!
+This bot can send all new messages from channels, directly to another channel (or group, just in case), with the forwarded tag!
 
 ## Setting up 
 * First:
 > `APP_ID` and `API_HASH` - Get it from my.telegram.org   
 > `BOT_TOKEN` - Get it from [@BotFather](https://t.me/BotFather)   
-> `FROM_CHANNEL` - The ID of the main channel from where posts have to be copied. (Use @chnlidbot to get it.)   
+> `FROM_CHANNEL` - The ID of the channels from where posts have to be copied separed by comma. (Use @chnlidbot to get it.)   
 > `TO_CHANNEL` - The ID of the channel to which the posts are to be sent. (Use @chnlidbot to get it.)   
    
 * Chose a platform to deploy on:
@@ -30,5 +30,5 @@ All new messages will be auto-posted!!
 Visit [@TeamCyphers](https://t.me/TeamCyphers) for help.
 ## Credits
 > [Lonami](https://github.com/LonamiWebs), for [Telethon](https://github.com/LonamiWebs/Telethon).   
-> [xditya](https://github.com/xditya), me.   
-> [@ettan_fan](https://t.me/ettan_fan), for the whole idea.   
+> [xditya](https://github.com/xditya), for the original bot.   
+> [@ettan_fan](https://t.me/ettan_fan).   
